@@ -1,6 +1,6 @@
 // IMPORTANTE: Una vez que despliegues tu API en Vercel, cambia esta URL por la tuya.
 // Ejemplo: 'https://mi-api-flask.vercel.app/productos'
-const API_URL = 'http://localhost:5000/productos'; 
+const API_URL = 'https://vercel-ejemplo-six.vercel.app/productos'; 
 
 const form = document.getElementById('formProducto');
 const lista = document.getElementById('listaProductos');
