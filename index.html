@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Inventario</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Control de Productos</h1>
+        
+        <div class="card">
+            <h2>Agregar Nuevo Producto</h2>
+            <form id="formProducto">
+                <input type="text" id="nombre" placeholder="Nombre del producto" required>
+                <input type="number" id="precio" placeholder="Precio ($)" required>
+                <button type="submit">Guardar en Base de Datos</button>
+            </form>
+        </div>
+
+        <div class="card">
+            <h2>Productos en MongoDB</h2>
+            <ul id="listaProductos">
+                </ul>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
